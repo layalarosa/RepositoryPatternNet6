@@ -58,7 +58,7 @@ namespace RepositoryPatternNet6.Controllers
 
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, User request)
+        public async Task<IActionResult> Update(User request)
         {
             var item = await _context.Users.FindAsync(request.Id);
             if (item == null)

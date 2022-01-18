@@ -51,7 +51,7 @@ namespace RepositoryPatternNet6.Controllers
 
                 return Ok(await _context.Users.ToListAsync());
             }
-
+            //return Ok(await _context.Users.ToListAsync());
             return new JsonResult("Something went wrong") { StatusCode = 500 };
         }
 

@@ -3,9 +3,9 @@ using RepositoryPatternNet6.Models;
 
 namespace RepositoryPatternNet6.Core.Repositories
 {
-    public class BookRepository : GenericRepository<Book>
+    public class ProductRepository : GenericRepository<Product>
     {
-        public BookRepository(
+        public ProductRepository(
             ApplicationDbContext context,
             ILogger logger
         ) : base(context, logger)

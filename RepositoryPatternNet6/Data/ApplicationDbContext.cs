@@ -10,6 +10,9 @@ namespace RepositoryPatternNet6.Data
         public virtual DbSet<User> Users { get; set; }
         public DbSet<Author> Authors { get; set; }
         public DbSet<Book> Books { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductType> ProductType { get; set; } 
+        public DbSet<ProductBrands> ProductBrands { get; set; }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)

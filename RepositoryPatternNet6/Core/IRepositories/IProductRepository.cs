@@ -2,24 +2,24 @@
 
 namespace RepositoryPatternNet6.Core.IRepositories
 {
-    public interface IAuthorRepository : IGenericRepository<Author>
+    public interface IProductRepository : IGenericRepository<Product>
     {
         public Task<bool> Add(User entity)
         {
             throw new NotImplementedException();
         }
 
-        public new Task<IEnumerable<User>> All()
+        public Task<IEnumerable<User>> All()
         {
             throw new NotImplementedException();
         }
 
-        public new Task<bool> Delete(int id)
+        public Task<bool> Delete(int id)
         {
             throw new NotImplementedException();
         }
 
-        public new Task<User> GetById(int id)
+        public Task<User> GetById(int id)
         {
             throw new NotImplementedException();
         }

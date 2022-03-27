@@ -48,7 +48,7 @@ namespace RepositoryPatternNet6.Controllers
                 _context.Products.Add(product);
                 await _context.SaveChangesAsync();
 
-                return Ok(await _context.Users.ToListAsync());
+                return Ok(await _context.Products.ToListAsync());
             }
             //return Ok(await _context.Users.ToListAsync());
             return new JsonResult("Something went wrong") { StatusCode = 500 };

@@ -4,12 +4,12 @@ namespace RepositoryPatternNet6.Core.IRepositories
 {
     public interface IAuthorRepository : IGenericRepository<Author>
     {
-        public Task<bool> Add(User entity)
+        public Task<bool> Add(Author entity)
         {
             throw new NotImplementedException();
         }
 
-        public new Task<IEnumerable<User>> All()
+        public new Task<IEnumerable<Author>> All()
         {
             throw new NotImplementedException();
         }
@@ -19,12 +19,12 @@ namespace RepositoryPatternNet6.Core.IRepositories
             throw new NotImplementedException();
         }
 
-        public new Task<User> GetById(int id)
+        public new Task<Author> GetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<bool> Update(User entity)
+        public Task<bool> Update(Author entity)
         {
             throw new NotImplementedException();
         }

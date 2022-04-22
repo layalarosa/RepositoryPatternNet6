@@ -1,6 +1,8 @@
 # RepositoryPatternNet6
 Repository Pattern in .Net 6.0.1 Proyecto de Prueba... con tecnologias Nuevas.
 
+El Web API se puede textiar en swagger.
+
 El patrón de repositorio en .NET Core
 Entity Framework Core ya sirve como unidad de trabajo. 
 
